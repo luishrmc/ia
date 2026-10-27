@@ -1,0 +1,87 @@
+{
+  "name": "luishrmc/ia",
+  "description": "Production-grade, modular Agent Skills for autonomous development, planning, prompt engineering, and Git workflows.",
+  "repository": "https://github.com/luishrmc/ia",
+  "author": "luishrmc",
+  "version": "1.0.0",
+  "skills": [
+    {
+      "name": "plan-agents",
+      "category": "planning",
+      "path": "skills/plan-agents",
+      "description": "Synthesize production-ready, loop-based multi-agent architectures with deterministic gates and tool isolation."
+    },
+    {
+      "name": "plan-hooks",
+      "category": "planning",
+      "path": "skills/plan-hooks",
+      "description": "Design and recommend lifecycle hooks, validation interceptors, telemetry monitors, and convergence gates."
+    },
+    {
+      "name": "plan-instruction",
+      "category": "planning",
+      "path": "skills/plan-instruction",
+      "description": "Synthesize workspace reality and PLAN specifications into an authoritative GEMINI.md / AGENTS.md instruction file."
+    },
+    {
+      "name": "plan-skill",
+      "category": "planning",
+      "path": "skills/plan-skill",
+      "description": "Evaluate project scope and recommend a prioritized, loop-aligned suite of modular skills."
+    },
+    {
+      "name": "refine-prompt",
+      "category": "refinement",
+      "path": "skills/refine-prompt",
+      "description": "Dual-Mode prompt optimization engine (Interactive Markdown & Production Pydantic Application Code)."
+    },
+    {
+      "name": "refine-skill",
+      "category": "refinement",
+      "path": "skills/refine-skill",
+      "description": "Audit, troubleshoot, prune, and tune existing operational SKILL.md specifications."
+    },
+    {
+      "name": "refine-text",
+      "category": "refinement",
+      "path": "skills/refine-text",
+      "description": "Enforce natural, concise, and hype-free writing across all agent responses."
+    },
+    {
+      "name": "gen-skill",
+      "category": "refinement",
+      "path": "skills/gen-skill",
+      "description": "End-to-end meta-skill engine for architecting and generating production-ready modular agent skills."
+    },
+    {
+      "name": "git-safety-guard",
+      "category": "git",
+      "path": "skills/git-safety-guard",
+      "description": "Security gatekeeper auditing staged diffs for secrets, running tests in isolated stashes, and executing commits."
+    },
+    {
+      "name": "git-commit-stager",
+      "category": "git",
+      "path": "skills/git-commit-stager",
+      "description": "Audit modified files, stage changes by explicit pathspec, and draft validated Conventional Commits."
+    },
+    {
+      "name": "git-branch-lifecycle",
+      "category": "git",
+      "path": "skills/git-branch-lifecycle",
+      "description": "Audit working trees, sync base branches, create standardized feature/fix branches, and establish tracking."
+    },
+    {
+      "name": "latex-writer",
+      "category": "academic",
+      "path": "skills/latex-writer",
+      "description": "Draft and edit mathematically rigorous academic LaTeX prose for research manuscripts."
+    },
+    {
+      "name": "latex-build",
+      "category": "academic",
+      "path": "skills/latex-build",
+      "description": "Non-interactive LaTeX builds via latexmk, log stream parsing, and automated remediation patches."
+    }
+  ]
+}
